@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="css/signupUniStudent.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+    <div class="p-4 my-4 mx-4">
+        <div class="container-fluid rounded p-4 bg-white">
+            <h4 class="text-muted text-center text-lg-left font-weight-bold mt-4">
+            Sign up as a Prospective Student</h4>
+            <form action="">
+                <div class="form-row px-5 flex-column flex-lg-row">
+                    <div class="col">
+                        <div class="my-3 col-12 col-lg-9">
+                            <label for="firstName">First Name</label>                       
+                            <input type="text" name="" id="firstName" class="form-control" placeholder="John">
+                        </div>
+                        <div class="my-3 col-12 col-lg-9">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="" id="lastName" class="form-control" placeholder="Doe">
+                        </div>
+                        <div class="my-3 col-12 col-lg-9">
+                            <label for="email">Email Address: </label>
+                            <input type="email" id="email" class="form-control" placeholder="example@email.com">
+                        </div>
+                        <div class="my-3 col-12 col-lg-9">
+                            <label for="password">Password: </label>
+                            <input type="password" id="password" class="form-control" placeholder="Enter your password">
+                            <small class="text-muted">Password must be at least 8 characters</small>
+                        </div>
+                        <div class="my-3 col-12 col-lg-9">
+                            <label for="password2">Retype Password: </label>
+                            <input type="password" id="password2" class="form-control" 
+                            placeholder="Enter your password again">
+                            <small class="text-muted">This should match the first password</small>
+                        </div>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="my-0 my-lg-3 col-12 col-lg-9 offset-0 offset-lg-3">
+                            <label for="school" class="">Current School:</label>
+                            <select class="form-control" id="school">
+                                <option>-Select a School-</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-9 offset-0 offset-lg-3">
+                            <label for="major" class="">Grade Level: </label>
+                            <select class="form-control" id="major">
+                                <option>Grade 12</option>
+                                <option>Grade 11</option>
+                                <option>Grade 10</option>
+                            </select>
+                        </div>
+                        <div class="col-9 offset-3 d-none d-lg-block text-center">
+                            <img class="image" src="imgs/classmates.png" alt="classmates">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-control custom-checkbox d-flex mt-4">
+                    <input type="checkbox" class="custom-control-input" id="sameShipping">
+                    <label for="sameShipping" class="custom-control-label">
+                        <span class="ml-2">I am not a Robot</span></label>
+                </div>
+                
+                <div class="custom-control custom-checkbox d-flex">
+                    <input type="checkbox" class="custom-control-input" id="saveInfo">
+                    <label for="saveInfo" class="custom-control-label">
+                        <span class="ml-2">I have read and agreed to all the Terms and Conditions</span>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <div class="offset-lg-1 offset-md-5 offset-4">
+                        <button class="btn btn-primary btn-lg my-5 px-4 font-weight-bold">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <a href="signupChoice.html" class="p-0">
+                <span class="display-4 text-body">
+                    <i class="far fa-arrow-alt-circle-left"></i>
+                </span>
+            </a>
+
+        </div>
+    </div>
+    
+</body>
+</html>

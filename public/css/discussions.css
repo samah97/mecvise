@@ -1,0 +1,47 @@
+body{background: rgb(236, 236, 236)
+    no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#pin{
+    width: 30px;
+    height: 30px;
+}
+
+.pinned{
+    background-color: rgba(255, 159, 159, 0.295);
+}
+
+.points{
+    font-size: 1.3em;
+}
+.top-universities-div{
+    position: absolute;
+    top:50%;
+    left:3%;
+    border: 1px solid rgba(255, 159, 159, 0.295);
+    border-radius: 15px;
+    box-shadow: 3px 10px 13px #818181;
+}
+.top-universities-div .tud-title,
+.top-universities-div .tud-data .tud-element{
+    padding: 9px;
+}
+.top-universities-div .tud-title{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    background-color: #28a745;
+    border-radius: 14px 14px 0px 0px;
+    color:#FFF;
+}
+.top-universities-div .tud-data .tud-element,
+.top-universities-div .tud-data .tud-element label{
+    cursor: pointer;
+}
+.top-universities-div .tud-data .tud-element{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.top-universities-div .tud-data .tud-element:last-child{
+    border-bottom: 0px;
+}

@@ -1,0 +1,39 @@
+/* body{
+    background-image: url(imgs/laptopCoffee.jpg);
+    background-size:105%;
+    background-position-x: center;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+} */
+
+body{background: url(imgs/laptopCoffeeBlur.jpg)
+    no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#signup-buttons{
+    opacity: 0.9;
+}
+
+img{
+    width: 200px;
+}
+@media (max-width:992px){
+    img{
+    width:100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    }
+
+    #buttons{
+        text-align: center;
+    }
+
+    .col{
+        margin-top: 20px;
+        text-align: center;
+    }
+    /* body{background: url()
+        no-repeat center center fixed; 
+        background-size: cover;} */
+    }

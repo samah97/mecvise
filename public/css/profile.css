@@ -1,0 +1,61 @@
+body{background: rgb(236, 236, 236)
+    no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#compose-button{
+    display: none;
+}
+
+#picture{
+    image-rendering: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 100px;
+}
+
+#medal{
+    width: 25px;
+    height: 25px;
+}
+
+#picture-col{
+    background-color: rgb(102, 39, 127);
+}
+
+.desc{
+    margin-top: 100px;
+}
+
+#about{
+    text-align: justify;
+}
+
+.edit-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.ico{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 991px) {
+    #picture-col{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #profile-pic{
+        max-width: 100px; 
+        max-height: 100px;
+        min-width: 50px;
+        min-height: 50px;
+    }
+
+}

@@ -1,0 +1,12 @@
+body{background: url(../imgs/green-gradient.jpeg)
+    no-repeat center center fixed; 
+    background-size: cover;}
+
+.image{
+    margin-top: 15%;
+    width: 250px;
+}
+
+#navBlack{
+    background-color:black ;
+}

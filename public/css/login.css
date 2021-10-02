@@ -1,0 +1,27 @@
+body{background: url(..//imgs/red-gradient.jpg)
+    no-repeat center center fixed; 
+    background-size: cover;}
+
+.image{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border-style:groove;
+}
+
+#image-container{
+    border-color: black;
+}
+
+#navBlack{
+    background-color:black ;
+}
+
+@media (max-width: 550px) {
+    .image{
+        width: auto;
+        height: auto;
+    }
+
+}
